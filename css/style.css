@@ -254,19 +254,24 @@ textarea {
 img {
   width: 100%;
 }
-.card {
+.card-wrap {
   margin: 50px auto 0;
-  max-width: 550px;
+  max-width: 650px;
+  border: 1px solid black
+}
+.card {
   border: 20px solid;
   z-index: 1;
   position: relative;
+}
+.inner {
+  border: 1px solid black;
   padding: 2rem;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .seek {
   display: flex;
   align-items: center;
@@ -330,7 +335,7 @@ img {
 }
 .cv {
   margin: 50px auto 0;
-  max-width: 550px;
+  max-width: 650px;
 }
 .this {
   position: relative;
@@ -383,5 +388,6 @@ img {
   }
   .seek {
     width: 50%;
+    margin-left: auto;
   }
 }
